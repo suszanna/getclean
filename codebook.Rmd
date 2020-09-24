@@ -1,0 +1,111 @@
+---
+title: "codebook"
+author: "suszanna"
+date: "9/24/2020"
+output: html_document
+---
+
+ ============================================================================================\	
+For the purpose of the Johns Hopkins University project for the certification in Data Science Specialization & specifically the course in Getting and Cleaning Data, this dataset has been analyzed for mean and standard deviation, and the output data set is directed to contain averages for the variables listed below.\	
+	
+The experiments were run on a sample set of 30 participants. Wearing a smartphone, each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, and LAYING.  Data was captured at a rate of 50Hz, and consists of 3-axial linear acceleration and 3-axial angular velocity.  The output data consists of two datasets: training data and test data. \	
+	
+For further information with respect to this dataset contact: activityrecognition '@' smartlab.ws\	
+The research and data were published in 2013.\	
+============================================================================================\	
+	
+List of all features identified (mean/std) for this analysis:\	
+* The second column of numbers are pointers to the source documents.\	
+	
+0         0 Activity labels:  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING\	
+	
+1	1 tBodyAcc-mean()-X  acceleration signal in x direction\
+2	2 tBodyAcc-mean()-Y  acceleration signal in y direction\
+3	3 tBodyAcc-mean()-Z  acceleration signal in z direction\
+	
+4	4 tBodyAcc-std()-X  acceleration signal in x direction\
+5	5 tBodyAcc-std()-Y  acceleration signal in y direction\
+6	6 tBodyAcc-std()-Z  acceleration signal in z direction\
+	
+7	41 tGravityAcc-mean()-X gravity acceleration signal in x direction\
+8	42 tGravityAcc-mean()-Y gravity acceleration signal in y direction\
+9	43 tGravityAcc-mean()-Z gravity acceleration signal in z direction\
+	
+10	44 tGravityAcc-std()-X gravity acceleration signal in x direction\
+11	45 tGravityAcc-std()-Y gravity acceleration signal in y direction\
+12	46 tGravityAcc-std()-Z gravity acceleration signal in z direction\
+	
+13	81 tBodyAccJerk-mean()-X ... Jerk  signal in time of linear acceleration in x direction\
+14	82 tBodyAccJerk-mean()-Y ... Jerk  signal in time of linear acceleration in y direction\
+15	83 tBodyAccJerk-mean()-Z ... Jerk  signal in time of linear acceleration in z direction\
+	
+16	84 tBodyAccJerk-std()-X  Jerk  signal in time of linear acceleration in x direction\
+17	85 tBodyAccJerk-std()-Y  Jerk  signal in time of linear acceleration in y direction\
+18	86 tBodyAccJerk-std()-Z  Jerk  signal in time of linear acceleration in z direction\
+	
+19	121 tBodyGyro-mean()-X angular velocity in x direction\
+20	122 tBodyGyro-mean()-Y angular velocity in y direction\
+21	123 tBodyGyro-mean()-Z angular velocity in z direction\
+	
+22	124 tBodyGyro-std()-X angular velocity in x direction\
+23	125 tBodyGyro-std()-Y angular velocity in y direction \
+24	126 tBodyGyro-std()-Z angular velocity in z direction \
+	
+25	161 tBodyGyroJerk-mean()-X ... Jerk  signal in time of angular velocity in x direction\
+26	162 tBodyGyroJerk-mean()-Y ... Jerk  signal in time of angular velocity in y direction\
+27	163 tBodyGyroJerk-mean()-Z ... Jerk  signal in time of angular velocity in z direction\
+	
+28	164 tBodyGyroJerk-std()-X  ... Jerk  signal in time of angular velocity in x direction\
+29	165 tBodyGyroJerk-std()-Y  ... Jerk  signal in time of angular velocity in y direction\
+30	166 tBodyGyroJerk-std()-Z  ... Jerk  signal in time of angular velocity in z direction\
+	
+31	201 tBodyAccMag-mean()  magnitude of mean value calculated using Euclidean norm\
+32	202 tBodyAccMag-std()   magnitude of std value calculated using Euclidean norm\
+	
+33	227 tBodyAccJerkMag-mean()  magnitude of mean Jerk value calculated using Euclidean norm\
+34	228 tBodyAccJerkMag-std()   magnitude of std Jerk value calculated using Euclidean norm\
+	
+35	240 tBodyGyroMag-mean()  magnitude of mean Gyro value calculated using Euclidean norm\
+36	241 tBodyGyroMag-std()   magnitude of std Gyro value calculated using Euclidean norm\
+	
+37	253 tBodyGyroJerkMag-mean()  magnitude of mean GyroJerk value calculated using Euclidean norm\
+38	254 tBodyGyroJerkMag-std()   magnitude of std GyroJerk value calculated using Euclidean norm\
+	
+39	266 fBodyAcc-mean()-X  frequency domain signal from FFT of acceleration mean x value\
+40	267 fBodyAcc-mean()-Y  frequency domain signal from FFT of acceleration mean y value\
+41	268 fBodyAcc-mean()-Z  frequency domain signal from FFT of acceleration mean z value\
+	
+42	269 fBodyAcc-std()-X  frequency domain signal from FFT of acceleration std x value\
+43	270 fBodyAcc-std()-Y  frequency domain signal from FFT of acceleration std y value\
+44	271 fBodyAcc-std()-Z  frequency domain signal from FFT of acceleration std z value\
+	
+45	345 fBodyAccJerk-mean()-X frequency domain signal from FFT of acceleration Jerk mean x value\
+46	346 fBodyAccJerk-mean()-Y frequency domain signal from FFT of acceleration Jerk mean y value\
+47	347 fBodyAccJerk-mean()-Z frequency domain signal from FFT of acceleration Jerk mean z value\
+	
+48	348 fBodyAccJerk-std()-X frequency domain signal from FFT of acceleration Jerk std x value\
+49	349 fBodyAccJerk-std()-Y frequency domain signal from FFT of acceleration Jerk std y value\
+50	350 fBodyAccJerk-std()-Z frequency domain signal from FFT of acceleration Jerk std z value\
+	
+51	424 fBodyGyro-mean()-X frequency domain signal from FFT of gyro mean x value\
+52	425 fBodyGyro-mean()-Y frequency domain signal from FFT of gyro mean y value\
+53	426 fBodyGyro-mean()-Z  frequency domain signal from FFT of gyro mean z value\
+	
+54	427 fBodyGyro-std()-X  frequency domain signal from FFT of gyro std x value\
+55	428 fBodyGyro-std()-Y  frequency domain signal from FFT of gyro std y value\
+56	429 fBodyGyro-std()-Z  frequency domain signal from FFT of gyro std z value\
+	
+57	503 fBodyAccMag-mean() frequency domain signal from FFT for signal magnitude mean\
+58	504 fBodyAccMag-std()  frequency domain signal from FFT for signal magnitude std\
+	
+59	516 fBodyBodyAccJerkMag-mean() frequency domain signal from FFT for signal for jerk magnitude mean\
+60	517 fBodyBodyAccJerkMag-std() frequency domain signal from FFT for signal for jerk magnitude std\
+	
+61	529 fBodyBodyGyroMag-mean() frequency domain signal from FFT for signal for gyro magnitude mean\
+62	530 fBodyBodyGyroMag-std() frequency domain signal from FFT for signal for gyro magnitude std\
+	
+63	542 fBodyBodyGyroJerkMag-mean()  freq domain signal from FFT for signal for gyro jerk magnitude mean\
+64	543 fBodyBodyGyroJerkMag-std()   freq domain signal from FFT for signal for gyro jerk magnitude std\
+	
+	
+============================================================================================\	
